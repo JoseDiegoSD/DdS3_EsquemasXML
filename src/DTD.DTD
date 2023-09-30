@@ -1,0 +1,18 @@
+<!ELEMENT Canciones (Cancion)*>
+
+        <!ELEMENT Cancion (Duracion|AnioLanzamiento|Detalles)*>
+        <!ELEMENT Duracion (#PCDATA)>
+        <!ELEMENT AnioLanzamiento (#PCDATA)>
+
+        <!ELEMENT Detalles (Titulo|Compositores|Productores|Sello|Artista)*>
+        <!ELEMENT Titulo (#PCDATA)>
+        <!ELEMENT Compositores (Compositor)*>
+
+        <!ELEMENT Compositor (Nombre|Apellido)*>
+        <!ELEMENT Nombre (#PCDATA)>
+        <!ELEMENT Apellido (#PCDATA)>
+
+        <!ELEMENT Productores (Productor)*>
+        <!ELEMENT Productor (Nombre|Apellido)*>
+        <!ELEMENT Sello (#PCDATA)>
+        <!ELEMENT Artista (#PCDATA)>

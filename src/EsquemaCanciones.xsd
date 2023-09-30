@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="canciones">
+
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cancion" type="tipocancion" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+    <xs:complexType name="tipocancion">
+        <xs:sequence>
+            <xs:element name="Duracion" type="xs:string" />
+            <xs:element name="AnioLanzamiento" type="xs:string"/>
+            <xs:element name="Detalles" type="TipoDetalles"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TipoDetalles">
+
+        <xs:sequence>
+            <xs:element name="Titulo" type="xs:string"/>
+            <xs:element name="Compositores" type="TipoCompositores"/>
+            <xs:element name="Productores" type="TipoProductores"/>
+            <xs:element name="Sello" type="xs:string"/>
+            <xs:element name="Artista" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="TipoCompositores">
+        <xs:sequence>
+            <xs:element name="Compositor" type="persona" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="TipoProductores">
+        <xs:sequence>
+            <xs:element name="Productor" type="persona" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="persona">
+        <xs:sequence>
+            <xs:element name="Nombres" type="xs:string"/>
+            <xs:element name="Apellidos" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="EsquemaCanciones.xsd">
+
+    <cancion>
+        <Duracion>3:30</Duracion>
+        <AnioLanzamiento>2005</AnioLanzamiento>
+        <Detalles>
+            <Titulo>Helena</Titulo>
+            <Compositores>
+                <Compositor>
+                    <Nombres>Gerard</Nombres>
+                    <Apellidos>Way</Apellidos>
+                </Compositor>
+            </Compositores>
+
+            <Productores>
+                <Productor>
+                    <Nombres>Howard</Nombres>
+                    <Apellidos>Benson</Apellidos>
+                </Productor>
+            </Productores>
+
+            <Sello>Three Cheers for Sweet Revenge</Sello>
+            <Artista>My chemicall romance</Artista>
+        </Detalles>
+    </cancion>
+
+    <cancion>
+        <Duracion>5:34</Duracion>
+        <AnioLanzamiento>1970</AnioLanzamiento>
+        <Detalles>
+            <Titulo>El triste</Titulo>
+            <Compositores>
+                <Compositor>
+                    <Nombres>Roberto</Nombres>
+                    <Apellidos>Cantoral</Apellidos>
+                </Compositor>
+            </Compositores>
+            <Productores>
+                <Productor>
+                    <Nombres>Mariano</Nombres>
+                    <Apellidos>Perez</Apellidos>
+                </Productor>
+            </Productores>
+            <Sello>RCA Victor</Sello>
+            <Artista>Jose Jose</Artista>
+        </Detalles>
+    </cancion>
+
+    <cancion>
+        <Duracion>4:36</Duracion>
+        <AnioLanzamiento>1969</AnioLanzamiento>
+        <Detalles>
+            <Titulo>My way</Titulo>
+            <Compositores>
+                <Compositor>
+                    <Nombres>Claude</Nombres>
+                    <Apellidos>Francois</Apellidos>
+                </Compositor>
+            </Compositores>
+            <Productores>
+                <Productor>
+                    <Nombres>Don</Nombres>
+                    <Apellidos>Costa</Apellidos>
+                </Productor>
+            </Productores>
+            <Sello>Reprise records</Sello>
+            <Artista>Frank Sinatra</Artista>
+        </Detalles>
+    </cancion>
+</canciones>

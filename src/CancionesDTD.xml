@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Canciones SYSTEM "DTD.dtd">
+<Canciones>
+
+    <Cancion>
+        <Duracion>3:30</Duracion>
+        <AnioLanzamiento>2005</AnioLanzamiento>
+        <Detalles>
+            <Titulo>Helena</Titulo>
+            <Compositores>
+                <Compositor>
+                    <Nombre>Gerard</Nombre>
+                    <Apellido>Way</Apellido>
+                </Compositor>
+            </Compositores>
+
+            <Productores>
+                <Productor>
+                    <Nombre>Howard</Nombre>
+                    <Apellido>Benson</Apellido>
+                </Productor>
+            </Productores>
+
+            <Sello>Three Cheers for Sweet Revenge</Sello>
+            <Artista>My chemicall romance</Artista>
+        </Detalles>
+    </Cancion>
+
+    <Cancion>
+        <Duracion>5:34</Duracion>
+        <AnioLanzamiento>1970</AnioLanzamiento>
+        <Detalles>
+            <Titulo>El triste</Titulo>
+            <Compositores>
+                <Compositor>
+                    <Nombre>Roberto</Nombre>
+                    <Apellido>Cantoral</Apellido>
+                </Compositor>
+            </Compositores>
+            <Productores>
+                <Productor>
+                    <Nombre>Mariano</Nombre>
+                    <Apellido>Perez</Apellido>
+                </Productor>
+            </Productores>
+            <Sello>RCA Victor</Sello>
+            <Artista>Jose Jose</Artista>
+        </Detalles>
+    </Cancion>
+
+    <Cancion>
+        <Duracion>4:36</Duracion>
+        <AnioLanzamiento>1969</AnioLanzamiento>
+        <Detalles>
+            <Titulo>My way</Titulo>
+            <Compositores>
+                <Compositor>
+                    <Nombre>Claude</Nombre>
+                    <Apellido>Francois</Apellido>
+                </Compositor>
+            </Compositores>
+            <Productores>
+                <Productor>
+                    <Nombre>Don</Nombre>
+                    <Apellido>Costa</Apellido>
+                </Productor>
+            </Productores>
+            <Sello>Reprise records</Sello>
+            <Artista>Frank Sinatra</Artista>
+        </Detalles>
+    </Cancion>
+</Canciones>
